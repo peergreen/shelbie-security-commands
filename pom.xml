@@ -34,17 +34,10 @@
     <repository>
       <id>peergreen.release</id>
       <name>Peergreen Release Nexus</name>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
       <url>https://forge.peergreen.com/nexus/content/repositories/releases/</url>
-      <layout>default</layout>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>false</enabled></snapshots>
     </repository>
   </repositories>
-
-
 
 </project>
