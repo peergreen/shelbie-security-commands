@@ -39,5 +39,7 @@
                     action="com.peergreen.shelbie.security.internal.ShowSubjectAction" />
   <command-instance xmlns="org.ow2.shelbie"
                     action="com.peergreen.shelbie.security.internal.SetSessionRealmAction" />
+  <command-instance xmlns="org.ow2.shelbie"
+                    action="com.peergreen.shelbie.security.internal.ListStoresAction" />
 
 </ipojo>
